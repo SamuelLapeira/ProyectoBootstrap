@@ -1,0 +1,140 @@
+/**********************
+* Trabajo de clase bootstrap
+*
+* Pagína de CSS Realizada por Samuel Lapeira Pérez 17/02/2023
+* 1º Daw 
+* Curso 23/24
+*
+*
+***********fonts*******/
+@font-face {
+    font-family: textonormal;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
+
+/**************************sizing******************/
+.w-35{
+    width: 35%;
+}
+.mb-8{margin-bottom: 8em;}
+
+
+/**********************colors **************************/
+.bg-salmon{
+    background-color: rgb(255, 158, 148);
+}
+.card:hover{
+    box-shadow: 3px 3px 10px lightgray;
+
+}
+
+
+/* estilos.css */
+.bg-color {
+    background-color: #006666; /* Color de body */
+  }
+
+  .bg-color2 {
+    background-color: #003333; /* Color de wrapper */
+  }
+  
+.text-color {
+    color:#C7C700;
+}
+
+
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.506);
+
+}
+#trigger {
+    cursor: pointer;
+}
+#trigger:hover{
+    opacity: 0.75;
+}
+
+/**************************hero*************************/
+.bg-btn  {
+    background-color: #003333;
+}
+
+#hero{
+    background-image: url(../img/eldenring/eldenring.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/***************** top nav *************************************/
+
+.topnav {
+    background-color: #333;
+}
+
+.nav-link{
+    color:#C7C700;
+}
+
+/**************************Cards*************************/
+
+.card-img {
+    background-image: url(../img/eldenring/pergamino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*************************Footer**************************/
+footer a {color:white;
+    text-decoration: none;}
+
+
+/******************** Modal footer **********************/
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 10%;
+    top: 0;
+    width: 80%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color:black;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+  
+  #myBtn {cursor:pointer;}
+
+
+  /******** PC *****************/
+@media only screen and (width<=650px) {
+      
+    #hero {background-image: url(../img/eldenring/background-mobile.png)}
+}

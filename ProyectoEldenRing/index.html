@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring - Tributo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <link rel="shortcut icon" href="./img/eldenring/favicon.png" type="image/x-icon">
+</head>
+<body class="bg-color">
+<div id="wrapper" class="container bg-color2 px-0">
+    <!--navbar from bootstrap v5.3-->
+    <nav class="navbar navbar-expand-lg topnav sticky-top">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" ><img src="./img/eldenring/logo.png.png" class="w-35" alt="logo Elden Ring"></a>
+          <!-- hamburguer icon-->
+          <button class="navbar-toggler bg-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- menu links that collapse when viewpoer is narrow-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item" >
+                <a class="nav-link" href="#intro">Introduccion
+                </a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#personajes">Personajes
+                </a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galeria
+                </a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#requisitos">Requisitos 
+                  </a>
+                  </li>
+  
+                <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto
+                </a>
+                </li> 
+          </div>
+        </div>
+      </nav>
+      <!-- hero section con background-image-->
+    <header id="hero" class="vh-100 container d-flex justify-content-center align-items-end">
+      <button class="btn btn-light text-color bg-btn mb-8">Conviertete en el Señor del Círculo</button>
+    </header>
+    <!-- intro section with bootstrap grid-->
+    <section id="intro" class="p-5" >
+        <h1 class="display-1 text-center fw-bold text-color mb-5 ">Introducción</h1>
+        <!--basic grid in two colums-->
+        <div class="container">
+            <div class="row g-5 border">
+                <div class="col-12 col-md-6" > <p class="text-white" >
+                  Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.
+
+                  En las Tierras Intermedias gobernadas por la Reina Márika, la Eterna, el Círculo de Elden, origen del Árbol Áureo, ha sido destruido.
+                  
+                  Los descendientes de Márika, todos semidioses, reclamaron los fragmentos del Círculo de Elden conocidos como Grandes Runas. Fue entonces cuando la demencial corrupción de su renovada fuerza provocó una guerra: la Devastación. Una guerra que supuso el abandono de la Voluntad Mayor. Y ahora, la gracia que nos guía recaerá sobre el Sinluz desdeñado por la gracia del oro y exiliado de las Tierras Intermedias. Tú que has muerto, pero vives, con tu gracia tiempo ha perdida, recorre la senda hacia las Tierras Intermedias más allá del neblinoso mar para postrarte ante el Círculo de Elden. </p>               </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="./img/eldenring/introduccionimg.webp" alt="Foto tal y cual"  class="w-100 mb-3">
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+    <!--seasson-->
+    <section id="personajes">
+        <h1 class="display-1 text-center fw-bold text-color mb-5">Personajes</h1>
+        <div class="container">
+            <div class="row g-3">
+              <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                <!-- card2 from bootstrap v5.3-->
+                  <div class="card mb-4 card-img">
+                      <img src="./img/eldenring/heroe.webp" class="card-img-top" alt="Heroe">
+                      <div class="card-body">
+                        <h5 class="card-title">Heroe</h5>
+                        <p class="card-text">Arma:
+                          Hacha de guerra.</p>
+                        
+                      </div>
+                    </div>
+                    <!--end of card 1-->
+              </div>
+                  <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                      <!-- card2 from bootstrap v5.3-->
+                      <div class="card card-img">
+                          <img src="./img/eldenring/vagante.webp" class="card-img-top" alt="Vagante">
+                          <div class="card-body">
+                            <h5 class="card-title">Vagante</h5>
+                            <p class="card-text">Arma:
+                              Doble espada.</p>
+                            
+                          </div>
+                        </div>
+                        <!--end of card 2-->
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                    <!-- card2 from bootstrap v5.3-->
+                    <div class="card card-img">
+                        <img src="./img/eldenring/bandido.webp" class="card-img-top" alt="Bandido">
+                        <div class="card-body">
+                          <h5 class="card-title">Bandido</h5>
+                          <p class="card-text">Arma:
+                            Dagas y arcos.</p>
+                          
+                        </div>
+                      </div>
+                      <!--end of card 3-->
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                  <!-- card2 from bootstrap v5.3-->
+                  <div class="card card-img">
+                      <img src="./img/eldenring/guerrero.webp" class="card-img-top" alt="Guerrero">
+                      <div class="card-body">
+                        <h5 class="card-title">Guerrero</h5>
+                        <p class="card-text">Armas:
+                          Hachas dobles.</p>
+                        
+                      </div>
+                    </div>
+                    <!--end of card 4-->
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                <!-- card2 from bootstrap v5.3-->
+                <div class="card card-img">
+                    <img src="./img/eldenring/atrologo.webp" class="card-img-top" alt="Astrologo">
+                    <div class="card-body">
+                      <h5 class="card-title">Astrologo</h5>
+                      <p class="card-text">Armas:
+                      Grimorio.</p>
+                      
+                    </div>
+                  </div>
+                  <!--end of card 5-->
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+              <!-- card2 from bootstrap v5.3-->
+              <div class="card card-img">
+                  <img src="./img/eldenring/samurai.webp" class="card-img-top" alt="Samurai">
+                  <div class="card-body">
+                    <h5 class="card-title">Samurai</h5>
+                    <p class="card-text">Armas:
+                      Katanas y arcos.</p>
+                    
+                  </div>
+                </div>
+                <!--end of card 6-->
+          </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery from boostrap-->
+    <section id="galeria" class="mt-3 ">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <!--Malenia-->
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/eldenring/malenia.jpg" class="d-block w-100" alt="Malenia">
+            <div class="carousel-caption d-none d-md-block text-white p-5 rounded-5">
+              <h5>Malenia</h5>
+              <p>Malenia, la Espada de Miquella, también conocida como Malenia la Cercenada,fue una semidiosa y una Empírea que heredó una de las Grandes Runas. Durante la Devastación se enfrentó a sus hermanos por el control de las Tierras Intermedias.</p>
+            </div>
+            <!--Radahn-->
+          </div>
+          <div class="carousel-item">
+            <img src="./img/eldenring/radahn.jpg" class="d-block w-100" alt="Radahn">
+            <div class="carousel-caption d-none d-md-block text-white p-5 rounded-5">
+              <h5>Radahn</h5>
+              <p>Radahn, Azote de las Estrellas fue un semidiós y el heredero de una Gran Runa. Era un guerrero feroz que luchó contra sus hermanos por el control de las Tierras Intermedias.</p>
+            </div>
+          </div>
+          <!--radagon-->
+          <div class="carousel-item">
+            <img src="./img/eldenring/radagon.jpg" class="d-block w-100" alt="Radagon">
+            <div class="carousel-caption d-none d-md-block text-white p-5 rounded-5">
+              <h5>Radagon</h5>
+              <p>Radagon fue un campeón de la Orden Dorada, el "otro yo" de la Reina Márika la Eterna y ex esposo de la Reina Rennala de los Caria. Como Rey Consorte de Márika, se convirtió en el segundo Señor del Círculo.</p>
+            </div>
+          </div>
+          <!--Maliketh-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/eldenring/maliketh.jpg" class="d-block w-100" alt="Maliketh">
+              <div class="carousel-caption d-none d-md-block text-white p-5 rounded-5">
+                <h5>Maliketh</h5>
+                <p>Maliketh, la Hoja Negra fue hermanastro de la Reina Márika la Eterna y guardián de la Runa de la Muerte.</p>
+              </div>
+             
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Accordion from bootsrap-->
+    <section id="requisitos" >
+      <div class="container">
+        <div class="row">
+          <div class="col-0 col-md-1 col-lg-2 col-xxl-4 ">
+
+          </div>
+          <div class="col-12 col-md-10 col-lg-8 col-xxl-6 mt-3 mb-3 ">
+            <div class="accordion accordion-flush" id="myaccordion1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Requisitos Mínimos
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Procesadorr: Intel Core i5-8400 | AMD RYZEN 3 3300X</li>
+                      <li>Memoria: 12 GB RAM</li>
+                      <li>Gráfica: Nvidia GeForce GTX 1060, 3 GB | AMD Radeon RX 580, 4 GB</li>
+                      <li>DirectX: Version 12 (Feature Level 12.0)</li>
+                      <li>Almacenamiento: 60 GB espacio disponible </li>
+                      <li>Tarjeta de Sonido: Windows-Compatible Audio device</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Requisitos Recomendados
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Procesador: Intel Core i7-8700K | AMD Ryzen 5 3600X </li>
+                      <li>Memoria: 16 GB RAM</li>
+                      <li>Gráfica: Nvidia GeForce GTX 1070, 8 GB | AMD Radeon RX VEGA 56, 8 GB</li>
+                      <li>DirectX: Version 12 (Feature Level 12.0)</li>
+                      <li>Almacenamiento: 60 GB espacio disponible </li>
+                      <li>Tarjeta de Sonido: Windows-Compatible Audio device</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Sistemas Operativos Soportados
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                  <div class="accordion-body">
+                    Acutalmente Elden ring solo está disponible para los sistemas operativos Windows 10/11.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact with form from boostrap-->
+    <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col p-5 bg-primary">
+            <h1>Donde estamos:</h1>
+            <ul class="list-group mt-5 w-50 mx-auto">
+              <li class="list-group-item">Teléfono: 642 06 11 16</li>
+              <li class="list-group-item">Email: elden@g.educaand.es</li>
+              <li class="list-group-item">Dirección: Gran Via</li>
+            </ul>
+          </div>
+          <div class="ratio ratio-1x1 mt-5 w-75 mx-auto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2505283050104!2d-4.5544628!3d36.7405572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d2fe2a89c5%3A0xc7df40a25e5a2841!2sC.%20Frederick%20Terman%2C%203%2C%20Campanillas%2C%2029590%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1707212421420!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col">
+            <form action="" method="post" class="border border-secondary p-5 rounded-3 card-img mb-4 mt-3 text-black  ">
+              <h1>Contacto: </h1>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp">
+                <div id="nombreHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="apellidos" class="form-label">Apellidos: </label>
+                <input type="text" class="form-control" id="apellidos" name="apellidos" aria-describedby="apellidosHelp">
+                <div id="epellidosHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Los datos de su correo nunca serán compartidos con nadie más.</div>
+              </div>
+              <div class="mb-3">
+                <label for="provincia" class="form-label">Provincia:</label>
+                <select class="form-select" aria-label="Default select example" id="provincia" name="provincia">
+                  <option value="0" >--elige la provincia</option>
+                  <option value="29">Málaga</option>
+                  <option value="18">Granada</option>
+                  <option value="4">Almería</option>
+                </select>
+
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
+                <label class="form-check-label" for="masculino">
+                  Masculino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="sexo" id="femenino" value="femenino" >
+                <label class="form-check-label" for="femenino">
+                Femenino
+                </label>
+              </div>
+
+              <div class="form-check ">
+                <input class="form-check-input" type="radio" name="sexo" id="otro" value="otro" >
+                <label class="form-check-label" for="otro">
+                otro
+                </label>
+              </div>
+
+
+
+              <div class="my-5 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1"><a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-primary fw-bold text-decoration-none">>Acepto los términos y condiciones</a</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Terminos y condiciones</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Al acceder y utilizar nuestro sitio web de promoción de videojuegos, aceptas cumplir con los términos y condiciones establecidos.
+        La información proporcionada en el sitio es solo para fines informativos; no nos hacemos responsables por posibles errores u omisiones.
+        El contenido del sitio, incluidas imágenes y descripciones de videojuegos, está sujeto a derechos de autor y propiedad intelectual.
+        Nos reservamos el derecho de modificar o suspender el sitio, así como de cambiar los términos y condiciones en cualquier momento sin previo aviso.
+        La interacción y comentarios de los usuarios deben respetar las normas de conducta; nos reservamos el derecho de eliminar contenido inapropiado.
+        No garantizamos la disponibilidad continua del sitio y no nos hacemos responsables por interrupciones o errores técnicos.
+        Al proporcionar información personal, aceptas nuestra política de privacidad; garantizamos la protección y confidencialidad de tus datos.
+        Nos desvinculamos de cualquier responsabilidad por pérdidas o daños derivados del uso del sitio o de terceros enlazados.
+        La compra de videojuegos a través de enlaces de afiliados puede generar comisiones para nosotros; esto no afecta el precio para el usuario.
+        Al utilizar nuestro sitio, aceptas que cualquier disputa se resolverá mediante arbitraje y renuncias a emprender acciones legales.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!--footer with grid in 3 irregular columns-->
+    <footer id="footer" class="p-3 bg-black text-white">
+        <!--grid-->
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-6 col-lg-3  p-3">
+                  <ul>
+                    <a href="https://es.bandainamcoent.eu/elden-ring/elden-ring"><li>Sitio oficial:</li></a><br>
+                    <a href="#inicio"><li>Inicio</li></a><br>
+                    <a href="#personajes"><li>Personajes</li></a><br>
+                    
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                  <ul>
+                    <a href="#galeria"><li>Galeria</li></a><br>
+                    <a href="#contacto"><li>Contacto</li></a><br>
+                    <a href="#requisitos"><li>Requisitos</li></a>
+                    <!-- Trigger/Open The Modal -->
+                <li id="myBtn">Créditos</li>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal2">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Web creada para uso único de fines educativos</p>
+                    <p>Todas las imagenes y videos utilizados son propiedad de Bandai Namco</p>
+                    <p>Proyecto Página Web Lenguaje de Marcas 1ºDAW 23/24</p>
+                    </div>
+                </div> 
+                  </ul>
+                </div>
+                <div class="col-12 col-lg-6 ">
+                  <a href="https://es.bandainamcoent.eu/"><img src="./img/eldenring/bandainamco.png" alt="LogoBandai"></a>
+
+                </div>
+            </div>
+
+        </div>
+        
+    </footer>
+    <p class="fs-1,4 text-center bg-secondary text-white">© 2010 - 2023 Bandai Namco Europe S.A.S</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <!--Enlaces a js-->
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
